@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>javascript第一节</title>
+      <link href="/2022/03/14/javascript-xue-xi-bi-ji/"/>
+      <url>/2022/03/14/javascript-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h2 id="记录学习javascript过程"><a href="#记录学习javascript过程" class="headerlink" title="记录学习javascript过程"></a>记录学习javascript过程</h2><h3 id="浏览器的两大部分"><a href="#浏览器的两大部分" class="headerlink" title="浏览器的两大部分"></a>浏览器的两大部分</h3><p>shell 和 内核（内核重要）</p><p>shell —- 用户操作<br>内核  —– 代码运行、渲染引擎、ja引擎、其他模块</p><blockquote><p> 组成浏览器是由上面两大部分组成，shell可以理解为浏览器的外观，内核则是运行的核心</p></blockquote><h2 id="计算机语言"><a href="#计算机语言" class="headerlink" title="计算机语言"></a>计算机语言</h2><p>计算机语言分类两大类语言</p><h3 id="编译性语言"><a href="#编译性语言" class="headerlink" title="编译性语言"></a>编译性语言</h3><p>编译性语言特点：</p><blockquote><p>翻译全文  过程是 生成文件-执行全部文件</p></blockquote><p>编译性语言的优点：</p><blockquote><p>速度快、跨平台</p></blockquote><h3 id="解释性语言"><a href="#解释性语言" class="headerlink" title="解释性语言"></a>解释性语言</h3><p>解释性语言特点：</p><blockquote><p>实时翻译 过程是 看一行，执行一行，不生成文件</p></blockquote><p>解释性语言优点：</p><blockquote><p>跨平台、流通性高</p></blockquote><h2 id="js的执行队列"><a href="#js的执行队列" class="headerlink" title="js的执行队列"></a>js的执行队列</h2><p>轮转时间片： 类似吃饭，不是一起吃，但是都会吃完<br>   马拉松运动，不是同一时间出发，但是都会通过终点，同时消除。</p><h2 id="开始学习"><a href="#开始学习" class="headerlink" title="开始学习"></a>开始学习</h2><h3 id="浏览器概念"><a href="#浏览器概念" class="headerlink" title="浏览器概念"></a>浏览器概念</h3><p>主流浏览器及其内核（字节跳动面试题）</p><p>IE  —– trident<br>chrome —– webkit/bink<br>firfox —– Gecko<br>Opera —– presto<br>Safari —– Webkit</p><blockquote><p>以上内容是须知感念，必须背会</p></blockquote><h2 id="javascript写入方法"><a href="#javascript写入方法" class="headerlink" title="javascript写入方法"></a>javascript写入方法</h2><blockquote><p>页面级：直接在body里面写入</p></blockquote><p>标签</p><pre><code>&lt;script&gt; </code></pre><h3 id="外部Js文件"><a href="#外部Js文件" class="headerlink" title="外部Js文件"></a>外部Js文件</h3><pre><code>通过外部链接，可以是本地连接，也可以是其他站点的链接（代码外链）</code></pre><blockquote><p>网站的内容</p></blockquote><p> 结构  行为样式 相分离<br> html   js    css </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> javascript </tag>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>49岁生日快乐</title>
       <link href="/2022/03/07/sheng-ri-kuai-le/"/>
       <url>/2022/03/07/sheng-ri-kuai-le/</url>
