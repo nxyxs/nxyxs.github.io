@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>wordpress批量替换文章内容</title>
+      <link href="/2022/03/28/wordpress-pi-liang-ti-huan-wen-zhang-nei-rong/"/>
+      <url>/2022/03/28/wordpress-pi-liang-ti-huan-wen-zhang-nei-rong/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在做百度小程序的时候，要求不能出现诱导分享，我在文章底部加入了 “微信搜索……”</p><h2 id="解决方式"><a href="#解决方式" class="headerlink" title="解决方式"></a>解决方式</h2><blockquote><p>替换关键字数，有两个方法，我建议使用mysql的方法进行更改</p></blockquote><p>请提前保存好数据库文件，先进行备份，在进行操作</p><p>使用一下命令：</p><pre><code>UPDATE wp_posts SET post_content = replace(post_content,'网站增加小程序啦 微信搜索，“挖星座”进行浏览',' )</code></pre><blockquote><p>其中 ‘网站增加小程序啦 微信搜索，“挖星座”进行浏览’,’  前面单引号内是需要替换的内容，后面的引号是替换后的文字<br>由于我不需要展示，所以设置为空</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> wordprss </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wordpress学习笔记 </tag>
+            
+            <tag> Wordpress </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>javascript第一节</title>
       <link href="/2022/03/14/javascript-xue-xi-bi-ji/"/>
       <url>/2022/03/14/javascript-xue-xi-bi-ji/</url>
