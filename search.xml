@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>javascript第二节</title>
+      <link href="/2022/04/19/javascript-xue-xi-bi-ji-ji-ben-yu-fa/"/>
+      <url>/2022/04/19/javascript-xue-xi-bi-ji-ji-ben-yu-fa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h1 id="变量（variable）"><a href="#变量（variable）" class="headerlink" title="变量（variable）"></a>变量（variable）</h1><blockquote><p>变量声明</p></blockquote><blockquote><blockquote><p>声明、赋值分解 单———— var</p></blockquote></blockquote><h2 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h2><p>1、变量名必须以英文字母_n $ 开头<br>2、变量名可以包括英文字母_n $<br>3、不可以使用系统的关键字、保留字做为变量名。</p><blockquote><p>关键字： 有特殊语法含义的词不能做变量名</p></blockquote><h2 id="举个例子"><a href="#举个例子" class="headerlink" title="举个例子"></a>举个例子</h2><p>var a :  这个的含义程序申请变量，变量的名称叫做a<br>a= 100 给a赋值100 a就是等于100  </p><h2 id="简化写法"><a href="#简化写法" class="headerlink" title="简化写法"></a>简化写法</h2><p>var a= 100;</p><h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><pre><code>var a= 100;var b= 200;var c= 300;document.write(b);</code></pre><p> 以上的含义是<br>打印b的指，结果就是200</p><h2 id="举一反三"><a href="#举一反三" class="headerlink" title="举一反三"></a>举一反三</h2><blockquote><p>申请多个变量的方法</p></blockquote><h4 id="举例-1"><a href="#举例-1" class="headerlink" title="举例"></a>举例</h4><p>var a,b,c,d,e;  （这个就是单一的var模式）</p><blockquote><p>申请abcd 多个变量使用分号结尾。</p></blockquote><h1 id="开发的标准写法"><a href="#开发的标准写法" class="headerlink" title="开发的标准写法"></a>开发的标准写法</h1><pre><code>var a,        a= 10,    b,        b= 20,    c,        c= 30,    d,        d= 40,    e;        e= 50;</code></pre><blockquote><p>注：<br>var a=b 10;<br>a= 20;<br>打印的a的值只能是20</p><blockquote><p>因为不允许出现两个值，但是可以复值（指的就是重复赋值变量）</p></blockquote></blockquote><h2 id="变量规范"><a href="#变量规范" class="headerlink" title="变量规范"></a>变量规范</h2><blockquote><p>js的写法是“驼峰写法”或者“小驼峰写法”</p></blockquote><p>以上是第二章的内容，现在必须抓紧时间学习，已经好久没有学习了。<br>现在是在巩固以前的内容， 一刻也不能休息</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> javascript </tag>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>wordpress批量替换文章内容</title>
       <link href="/2022/03/28/wordpress-pi-liang-ti-huan-wen-zhang-nei-rong/"/>
       <url>/2022/03/28/wordpress-pi-liang-ti-huan-wen-zhang-nei-rong/</url>
